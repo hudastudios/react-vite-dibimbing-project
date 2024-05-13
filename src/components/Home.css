@@ -1,0 +1,257 @@
+.hero-images-icon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: 6px;
+    top: -130px;
+    transform: scale(1.447);
+}
+
+.wrapper-hero-images {
+    height: 1098px;
+    width: 1098px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -903px;
+    left: calc(50% - 549px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.introducing-onix {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: inherit;
+}
+
+.introducing-onix-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 21px 0 20px;
+    text-align: left;
+    color: #5e6b7e;
+}
+
+.api-of-blockchains,
+.community-owned {
+    margin: 0;
+}
+
+.community-owned-api-of-blockch-container,
+.onix-delivers-tamper-proof {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: 80px;
+    letter-spacing: -0.02em;
+    line-height: 88px;
+    font-weight: 900;
+    font-family: Inter;
+}
+
+.onix-delivers-tamper-proof {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: inherit;
+    color: #DDDDDD;
+}
+
+.hero-text {
+    flex: 1;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1;
+}
+
+.hero-header-inner,
+.hero-text,
+.wrapper-hero-images-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.wrapper-hero-images-parent {
+    align-self: stretch;
+    flex-direction: row;
+    position: relative;
+}
+
+.hero-header-inner {
+    width: 760px;
+    flex-direction: column;
+    padding: 0 0 928px;
+    box-sizing: border-box;
+    min-height: 1237px;
+}
+
+.scroll-icon-child {
+    position: absolute;
+    bottom: -7px;
+    left: calc(50% - 19px);
+    border-radius: 10px;
+    background-color: #151515;
+    border: 7px solid #1d181d;
+    box-sizing: border-box;
+    width: 38px;
+    height: 62px;
+}
+
+.scroll-icon-item {
+    position: absolute;
+    bottom: 22px;
+    left: calc(50% - 2px);
+    border-radius: 14px;
+    background-color: #eb5be5;
+    width: 4px;
+    height: 16px;
+    z-index: 1;
+}
+
+.scroll-icon {
+    height: 48px;
+    width: 24px;
+    position: relative;
+}
+
+.scroll-icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 53px 0 53.5px;
+}
+
+.scroll-to-explore {
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.scroll-indicator {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    z-index: 1;
+    margin-left: -445px;
+    text-align: left;
+    font-size: 12px;
+    color: #5e6b7e;
+}
+
+.header,
+.hero-header,
+.home,
+.scroll-indicator {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-header {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0 200px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #ddd;
+    font-family: Karla;
+}
+
+.header,
+.home {
+    align-items: flex-start;
+}
+
+.header {
+    flex: 1;
+    background-color: #151515;
+    flex-direction: column;
+    gap: 88px;
+    max-width: 100%;
+}
+
+.home {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: row;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-header-inner {
+        padding-bottom: 603px;
+        box-sizing: border-box;
+    }
+
+    .hero-header {
+        padding-left: 210px;
+        padding-right: 210px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .community-owned-api-of-blockch-container {
+        font-size: 40px;
+        line-height: 53px;
+    }
+
+    .header {
+        gap: 44px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .hero-header-inner {
+        padding-bottom: 392px;
+        box-sizing: border-box;
+    }
+
+    .hero-header {
+        padding-left: 105px;
+        padding-right: 105px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .community-owned-api-of-blockch-container {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .onix-delivers-tamper-proof {
+        font-size: 19px;
+        line-height: 29px;
+    }
+
+    .hero-header {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    .header {
+        gap: 22px;
+    }
+
+}

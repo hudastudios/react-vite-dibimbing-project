@@ -1,0 +1,62 @@
+.accessible-for-everyone,
+.onix-makes-blockchain {
+  margin: 0;
+}
+.onix-makes-blockchain-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 72px;
+  font-weight: 900;
+  font-family: inherit;
+}
+.features,
+.features1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.features1 {
+  flex: 1;
+  background-color: #151515;
+  flex-direction: column;
+  padding: 0 80px;
+  box-sizing: border-box;
+  gap: 180px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 60px;
+  color: #ddd;
+  font-family: Inter;
+}
+.features {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .onix-makes-blockchain-container {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .features1 {
+    gap: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .onix-makes-blockchain-container {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .features1 {
+    gap: 45px;
+  }
+}

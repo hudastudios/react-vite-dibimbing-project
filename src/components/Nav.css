@@ -1,0 +1,148 @@
+.logo-icon {
+    align-self: stretch;
+    height: 24px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.logo-instance {
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 0 0;
+    box-sizing: border-box;
+}
+
+.menu-button-icon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    object-fit: contain;
+    min-height: 40px;
+}
+
+.subtract-icon {
+    width: 5px;
+    height: 38px;
+    position: relative;
+}
+
+.subtract-instance {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 0 0;
+}
+
+.button-system-instance-child,
+.button-system-instance-item {
+    align-self: stretch;
+    height: 2px;
+    position: relative;
+    background-color: #eb5be5;
+}
+
+.button-system-instance {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 36px;
+}
+
+.subtract-icon1 {
+    width: 16px;
+    height: 38px;
+    position: relative;
+}
+
+.corner,
+.subtract-instance1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.subtract-instance1 {
+    flex-direction: column;
+    padding: 1px 0 0;
+}
+
+.corner {
+    margin-top: -12px;
+    margin-left: -16px;
+    width: 117px;
+    flex-direction: row;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.launch-app {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Karla;
+    color: #ddd;
+    text-align: left;
+    display: inline-block;
+    min-width: 85px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-left: -101px;
+}
+
+.button-system {
+    cursor: pointer;
+    border: 0;
+    padding: 9px 14px;
+    background-color: #362535;
+    height: 34px;
+    width: 113px;
+    border-radius: 1px 2px 1px 1px;
+    box-sizing: border-box;
+}
+
+.button,
+.button-40,
+.button-system,
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.button-40 {
+    padding: 3px;
+}
+
+.button,
+.nav {
+    gap: 24px;
+}
+
+.nav {
+    align-self: stretch;
+    justify-content: space-between;
+    padding: 72px 80px 0;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+    .nav {
+        padding-left: 40px;
+        padding-right: 40px;
+        box-sizing: border-box;
+    }
+}

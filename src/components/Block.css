@@ -1,0 +1,309 @@
+.platform4-icon1,
+.shadowstar-icon,
+.star4-icon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.shadowstar-icon,
+.star4-icon1 {
+  z-index: 1;
+}
+
+.star4-icon1 {
+  z-index: 2;
+}
+
+.stick-7 {
+  height: 682.7px;
+  width: 712px;
+  position: absolute;
+  margin: 0 !important;
+  top: -154.4px;
+  left: -140px;
+  border-radius: 64px;
+}
+
+.img1 {
+  height: 560px;
+  width: 434px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 434px;
+  max-width: 100%;
+}
+
+.build-on-onix,
+.top-blockchains {
+  margin: 0;
+}
+
+.top-blockchains-build-container {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 72px;
+  font-weight: 900;
+}
+
+.blank-line,
+.onix-believes-in,
+.onix-is-committed {
+  margin: 0;
+}
+
+.onix-is-committed-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  line-height: 36px;
+  font-family: Karla;
+  color: gray;
+}
+
+.text-block-wrapper,
+.text-block1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.text-block1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 32px;
+  background-color: #151515;
+}
+
+.text-block-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+}
+
+.subtract-icon2 {
+  width: 5px;
+  height: 38px;
+  position: relative;
+}
+
+.subtract-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+
+.frame-child,
+.frame-item {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: #eb5be5;
+}
+
+.rectangle-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px;
+}
+
+.subtract-icon3 {
+  width: 16px;
+  height: 38px;
+  position: relative;
+}
+
+.corner1,
+.subtract-wrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.subtract-wrapper1 {
+  flex-direction: column;
+  padding: 1px 0 0;
+}
+
+.corner1 {
+  margin-top: -12px;
+  margin-left: -16px;
+  width: 117px;
+  flex-direction: row;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.launch-app1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 85px;
+  flex-shrink: 0;
+  margin-left: -101px;
+}
+
+.button-401,
+.button-system1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.button-system1 {
+  height: 34px;
+  width: 113px;
+  border-radius: 1px 2px 1px 1px;
+  background-color: #362535;
+  padding: 9px 14px;
+  box-sizing: border-box;
+}
+
+.button-401 {
+  padding: 3px;
+}
+
+.read-the-docs1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 27px;
+  display: inline-block;
+  min-width: 112px;
+}
+
+.read-the-docs-container {
+  flex-direction: column;
+  padding: 6.5px 0 0;
+  font-size: 18px;
+  color: #eb5be5;
+}
+
+.block-2,
+.buttons1,
+.list-items-fully-benefit,
+.read-the-docs-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.buttons1 {
+  flex-direction: row;
+  gap: 32px;
+  font-size: 14px;
+  font-family: Karla;
+}
+
+.block-2,
+.list-items-fully-benefit {
+  max-width: 100%;
+}
+
+.list-items-fully-benefit {
+  flex: 1;
+  flex-direction: column;
+  gap: 56px;
+  min-width: 376px;
+}
+
+.block-2 {
+  width: 1156px;
+  flex-direction: row;
+  gap: 144px;
+  text-align: left;
+  font-size: 60px;
+  color: #ddd;
+  font-family: Inter;
+}
+
+@media screen and (max-width: 1200px) {
+  .block-2 {
+    gap: 72px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .img1 {
+    flex: 1;
+  }
+
+  .top-blockchains-build-container {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .text-block1 {
+    flex: 1;
+  }
+
+  .block-2 {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .img1 {
+    min-width: 100%;
+  }
+
+  .text-block1 {
+    gap: 16px;
+  }
+
+  .text-block-wrapper {
+    gap: 24px;
+  }
+
+  .list-items-fully-benefit {
+    gap: 28px;
+  }
+
+  .block-2 {
+    gap: 36px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .top-blockchains-build-container {
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .onix-is-committed-container {
+    font-size: 19px;
+    line-height: 29px;
+  }
+
+  .buttons1 {
+    gap: 16px;
+  }
+
+  .list-items-fully-benefit {
+    min-width: 100%;
+  }
+
+  .block-2 {
+    gap: 18px;
+  }
+}
